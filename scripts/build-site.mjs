@@ -1,6 +1,7 @@
 // 公開する形のサイトを _site に作る。GitHub Actions（.github/workflows/deploy.yml）が公開のたびに動かす。
 // - CSS と JS は、コメントと空白を削って小さくする（リポジトリのファイルはコメント付きのまま）
 // - ページで使う字だけのフォントを作る（scripts/subset-fonts.py）
+// - CSS を1つにまとめ、このサイトのファイルの URL に中身の印（?v=）を付ける
 //
 // 手元で動かすとき: node scripts/build-site.mjs のあと、_site をローカルのサーバーで開く。
 // Python に fonttools と brotli が要る（版は scripts/subset-fonts.py の先頭）。別の Python を使うときは PYTHON=パス を付ける
@@ -41,12 +42,26 @@ await writeFile(textFile, chars.join(''));
 execFileSync(PYTHON, ['scripts/subset-fonts.py', textFile, OUT + 'fonts'], { cwd: ROOT, stdio: 'inherit' });
 await rm(textFile);
 
-// フォントの中身が変わったら URL も変え、キャッシュに残った古いフォント（足りない字がある）を使わせない
-const themeFile = OUT + 'css/theme.css';
-let theme = await readFile(themeFile, 'utf8');
-theme = theme.replace(/\.\.\/(fonts\/[\w-]+\.woff2)/g, (match, path) => {
-  return `${match}?v=${createHash('sha256').update(readFileSync(OUT + path)).digest('hex').slice(0, 8)}`;
+// ファイルの中身から作る短い印。中身が変わったら URL も変わるので、ブラウザが古いものを使い続けない。
+// Cloudflare で、?v= の付いた URL だけを長くキャッシュさせている
+const version = (path) => createHash('sha256').update(readFileSync(OUT + path)).digest('hex').slice(0, 8);
+
+// CSS は1つにまとめる（読み込み終わるまで表示を待つファイルを減らすため）。順番は index.html の link と同じ base、theme
+let css = (await readFile(OUT + 'css/base.css', 'utf8')) + (await readFile(OUT + 'css/theme.css', 'utf8'));
+css = css.replace(/\.\.\/(fonts\/[\w-]+\.woff2)/g, (match, path) => `${match}?v=${version(path)}`);
+await writeFile(OUT + 'css/style.css', css);
+await rm(OUT + 'css/base.css');
+await rm(OUT + 'css/theme.css');
+
+let page = await readFile(OUT + 'index.html', 'utf8');
+const stylesheets = /<link rel="stylesheet" href="css\/base\.css">\s*<link rel="stylesheet" href="css\/theme\.css">/;
+if (!stylesheets.test(page)) throw new Error('index.html に CSS の link が見つかりません（base.css、theme.css の順で並べる）');
+page = page.replace(stylesheets, '<link rel="stylesheet" href="css/style.css">');
+// このサイトの CSS、JS、画像を指す src、href、srcset に印を付ける
+page = page.replace(/(src|href)="((?:css|js|images)\/[^"?#]+)"/g, (match, attr, path) => `${attr}="${path}?v=${version(path)}"`);
+page = page.replace(/srcset="([^"]+)"/g, (match, list) => {
+  return `srcset="${list.replace(/(images\/[^\s,?]+)/g, (path) => `${path}?v=${version(path)}`)}"`;
 });
-await writeFile(themeFile, theme);
+await writeFile(OUT + 'index.html', page);
 
 console.log(`${chars.length} 字のフォントで _site を作りました`);

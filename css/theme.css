@@ -94,8 +94,9 @@ body {
   color: #ff7a9c;
 }
 
+/* 白い文字が読みやすいよう、ピンクを濃くしている（コントラスト比 4.73。前の #ff4f7b では 3.15 で足りなかった） */
 .status-card__mult {
-  background: #ff4f7b;
+  background: #d6305e;
   color: #ffffff;
 }
 

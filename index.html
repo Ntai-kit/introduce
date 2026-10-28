@@ -109,8 +109,12 @@
         <div class="hero__photo">
           <!-- 自分の写真。元の写真を正方形に切り取り、480px の JPEG にしたもの（高精細の画面でも 180px の表示がぼやけない大きさ）。
                画面に合わない大きな画像を読まないよう、480px から縮めた 180、270、360px の版も置き、ブラウザに選ばせる。
-               sizes の 140px と 180px は、css/base.css の .hero__photo img の大きさ（599px 以下は 140px）に合わせる -->
-          <img src="images/profile.jpg" srcset="images/profile-180.jpg 180w, images/profile-270.jpg 270w, images/profile-360.jpg 360w, images/profile.jpg 480w" sizes="(max-width: 599px) 140px, 180px" alt="Ntai のアイコン" width="180" height="180" loading="lazy">
+               sizes の 140px と 180px は、css/base.css の .hero__photo img の大きさ（599px 以下は 140px）に合わせる。
+               JPEG より小さい WebP を先に置き、WebP を読めないブラウザだけ JPEG を使う -->
+          <picture>
+            <source type="image/webp" srcset="images/profile-180.webp 180w, images/profile-270.webp 270w, images/profile-360.webp 360w, images/profile.webp 480w" sizes="(max-width: 599px) 140px, 180px">
+            <img src="images/profile.jpg" srcset="images/profile-180.jpg 180w, images/profile-270.jpg 270w, images/profile-360.jpg 360w, images/profile.jpg 480w" sizes="(max-width: 599px) 140px, 180px" alt="Ntai のアイコン" width="180" height="180" loading="lazy">
+          </picture>
         </div>
         <div class="hero__text">
           <p class="hero__hello">はじめまして</p>

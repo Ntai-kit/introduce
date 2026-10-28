@@ -435,6 +435,8 @@ h3 {
   border: 2px solid var(--color-border);
   border-radius: 2px;
   background: var(--color-surface);
+  /* 枠線の分だけ中の画像の縦横比が元とずれるので、引き伸ばさずに端をわずかに切る */
+  object-fit: cover;
   opacity: 0;
   transition: opacity var(--title-game-fade) ease;
 }
@@ -640,6 +642,11 @@ h3 {
 
 .hero__photo {
   grid-area: photo;
+}
+
+/* picture は WebP と JPEG を選ぶための入れ物なので、並びには影響させない */
+.hero__photo picture {
+  display: contents;
 }
 
 .hero__photo img {
