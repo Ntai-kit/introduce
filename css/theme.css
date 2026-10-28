@@ -1,5 +1,21 @@
 /* 見た目（ゲーマー風）: 濃い紺の背景、ネオン色、ステータス画面風の枠 */
 
+/* フォントは、ページで使う字だけを抜き出したものを自前で配る（scripts/build-site.mjs が公開のときに fonts/ に作る）。
+   Google Fonts から読むと、字の範囲ごとに数十のファイルに分かれて届くため。
+   手元でそのまま開くと fonts/ がないので、Meiryo などで表示される */
+@font-face {
+  font-family: "Noto Sans JP";
+  src: url("../fonts/noto-sans-jp.woff2") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DotGothic16";
+  src: url("../fonts/dotgothic16.woff2") format("woff2");
+  font-display: swap;
+}
+
 :root {
   --color-bg: #1b2838;
   --color-surface: #22344a;

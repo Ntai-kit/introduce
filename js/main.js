@@ -416,12 +416,14 @@ function initSteamGames() {
     // 名前は横に文字で出すので、画像は読み上げない
     const image = document.createElement('img');
     image.className = 'game-card__image';
-    image.src = steamHeaderImage(game);
     image.alt = '';
     image.width = 460;
     image.height = 215;
+    // loading は src より先に決める。先に src を入れると、ページに置く前に読み込みが始まり、
+    // 「もっとみる」で隠しているゲームの画像まで最初に読んでしまう
     image.loading = 'lazy';
     image.decoding = 'async';
+    image.src = steamHeaderImage(game);
     // 画像のないゲームは、画像の場所を消して名前だけにする
     image.addEventListener('error', () => image.remove(), { once: true });
 

@@ -1,0 +1,57 @@
+# サイトを GitHub Pages に公開する。CSS と JS を小さくし、使う字だけのフォントを作ってから出す（scripts/build-site.mjs）。
+# GitHub の Settings → Pages の Source を「GitHub Actions」にしておく（ブランチから出す設定のままだと、このワークフローの結果は使われない）
+name: サイトを公開
+
+on:
+  push:
+    branches: [main]
+  # Steam のゲーム一覧の更新は bot のコミットで、push では動かないので、終わったあとに動かす
+  # （ゲーム名に新しい字が増えるとフォントも作り直す必要がある）
+  workflow_run:
+    workflows: [Steam のゲーム一覧を更新]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# 続けて公開するときは、前の公開を最後まで終わらせてから次を出す
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      # Action はコミットの SHA で固定する（理由は steam-games.yml と同じ）
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: lts/*
+          check-latest: true
+
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0 # v7.1.0
+        with:
+          python-version: '3.x'
+
+      - name: フォントを作る道具を入れる
+        # 版は scripts/subset-fonts.py の先頭と同じにする
+        run: pip install fonttools==4.67.0 brotli==1.2.0
+
+      - name: 公開する形を作る
+        run: node scripts/build-site.mjs
+
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1

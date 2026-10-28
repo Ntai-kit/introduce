@@ -7,21 +7,18 @@
   <meta name="description" content="ゆるめの情報工学徒 Ntai の自己紹介ページです。">
   <!-- スマートフォンのブラウザの上部を、ページの背景色（css/theme.css の --color-bg）にそろえる -->
   <meta name="theme-color" content="#1b2838">
-  <!-- 読み込んでよい先を、このサイト、Google Fonts、Steam の画像、Formspree（お問い合わせの送信先）、
+  <!-- 読み込んでよい先を、このサイト（フォントも自前で配る）、Steam の画像、Formspree（お問い合わせの送信先）、
        Cloudflare Web Analytics（アクセス計測。Cloudflare が自動で埋め込む。スクリプトは static.cloudflareinsights.com、送り先はこのサイトか cloudflareinsights.com）に絞る。
        スクリプトの URL は beacon.min.js/v… のように版ごとに変わるので、ファイルではなくサーバーごと許す。
        中身はここで管理し、meta では効かない frame-ancestors だけを Cloudflare のヘッダーで足す（両方あると、両方を満たすものだけが通る）。
        読み込む先を増やしたら、ここにも足す -->
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' https://shared.akamai.steamstatic.com; connect-src 'self' https://formspree.io https://cloudflareinsights.com; form-action https://formspree.io; base-uri 'none'; object-src 'none'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://static.cloudflareinsights.com; style-src 'self'; font-src 'self'; img-src 'self' https://shared.akamai.steamstatic.com; connect-src 'self' https://formspree.io https://cloudflareinsights.com; form-action https://formspree.io; base-uri 'none'; object-src 'none'">
   <!-- タブのアイコン。プロフィールの写真の頭の部分を切り取ったもの（小さいと全身では何か分からないため）。
        apple-touch-icon は、iPhone などでホーム画面に置いたときのアイコン -->
   <link rel="icon" href="images/favicon-32.png" sizes="32x32" type="image/png">
   <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <!-- トップ画面とゲームの節の画像の配信元。画像は CORS なしで読むので crossorigin は付けない -->
   <link rel="preconnect" href="https://shared.akamai.steamstatic.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DotGothic16&family=Noto+Sans+JP:wght@400;700&display=swap">
   <link rel="stylesheet" href="css/base.css">
   <link rel="stylesheet" href="css/theme.css">
   <script src="js/main.js" defer></script>
