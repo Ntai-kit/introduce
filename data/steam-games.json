@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27T22:53:49.824Z",
+  "updatedAt": "2026-10-28T23:03:41.325Z",
   "games": [
     {
       "appid": 2357570,
@@ -10,6 +10,14 @@
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2357570/5c208b2699cd38ed6125d039be388fa744db54a4/header_alt_assets_23.jpg?t=1791576843"
     },
     {
+      "appid": 714010,
+      "name": "Aimlabs",
+      "playtimeForever": 4088,
+      "playtime2Weeks": 651,
+      "lastPlayedDate": "2026-10-28",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/d5e9221e92990e5736994f070ffcd7c4e3af9345/header.jpg?t=1791001714"
+    },
+    {
       "appid": 3678970,
       "name": "TBH: Task Bar Hero",
       "playtimeForever": 4071,
@@ -18,20 +26,12 @@
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3678970/823b2004a83100f2f15fc370ba46bef476d2532e/header_alt_assets_1_japanese.jpg?t=1792715315"
     },
     {
-      "appid": 714010,
-      "name": "Aimlabs",
-      "playtimeForever": 4056,
-      "playtime2Weeks": 641,
-      "lastPlayedDate": "2026-10-26",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/d5e9221e92990e5736994f070ffcd7c4e3af9345/header.jpg?t=1791001714"
-    },
-    {
       "appid": 2427700,
       "name": "Backpack Battles",
       "playtimeForever": 2589,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2026-03-17",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2427700/75fd59d3c14c32bbba9be83dcae2585b5e17eff5/header.jpg?t=1792565874"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2427700/75fd59d3c14c32bbba9be83dcae2585b5e17eff5/header.jpg?t=1793194385"
     },
     {
       "appid": 2868840,
@@ -71,7 +71,7 @@
       "playtimeForever": 1687,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2026-09-28",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg?t=1793113581"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg?t=1793202236"
     },
     {
       "appid": 568220,
@@ -127,7 +127,7 @@
       "playtimeForever": 582,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2026-09-06",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/03b396d14a933238b49b0bfd434b59140f88435a/header.jpg?t=1793113939"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/03b396d14a933238b49b0bfd434b59140f88435a/header.jpg?t=1793205259"
     },
     {
       "appid": 3564400,
