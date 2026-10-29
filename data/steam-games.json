@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28T23:03:41.325Z",
+  "updatedAt": "2026-10-29T23:12:21.015Z",
   "games": [
     {
       "appid": 2357570,
@@ -12,9 +12,9 @@
     {
       "appid": 714010,
       "name": "Aimlabs",
-      "playtimeForever": 4088,
-      "playtime2Weeks": 651,
-      "lastPlayedDate": "2026-10-28",
+      "playtimeForever": 4114,
+      "playtime2Weeks": 536,
+      "lastPlayedDate": "2026-10-29",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/d5e9221e92990e5736994f070ffcd7c4e3af9345/header.jpg?t=1791001714"
     },
     {
@@ -127,7 +127,7 @@
       "playtimeForever": 582,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2026-09-06",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/03b396d14a933238b49b0bfd434b59140f88435a/header.jpg?t=1793205259"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/f057c1e043ad78892a4e7dd7b320b5f0825fd0f5/header_alt_assets_10_japanese.jpg?t=1793287660"
     },
     {
       "appid": 3564400,
@@ -215,7 +215,7 @@
       "playtimeForever": 167,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2026-02-13",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/1ea445e044a2d5b09cfa8291350b63ebed6e5741/header.jpg?t=1791817973"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962"
     },
     {
       "appid": 238960,
@@ -239,7 +239,7 @@
       "playtimeForever": 144,
       "playtime2Weeks": 144,
       "lastPlayedDate": "2026-10-27",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/97d1ed1ba272d34d951da38ad51b7ea5a73aae4c/header_alt_assets_1_japanese.jpg?t=1793106122"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/97d1ed1ba272d34d951da38ad51b7ea5a73aae4c/header_japanese.jpg?t=1793106122"
     },
     {
       "appid": 1865060,
