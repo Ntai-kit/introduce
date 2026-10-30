@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T23:12:21.015Z",
+  "updatedAt": "2026-10-30T22:53:41.665Z",
   "games": [
     {
       "appid": 2357570,
@@ -13,7 +13,7 @@
       "appid": 714010,
       "name": "Aimlabs",
       "playtimeForever": 4114,
-      "playtime2Weeks": 536,
+      "playtime2Weeks": 503,
       "lastPlayedDate": "2026-10-29",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/d5e9221e92990e5736994f070ffcd7c4e3af9345/header.jpg?t=1791001714"
     },
@@ -55,7 +55,7 @@
       "playtimeForever": 2056,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2026-07-31",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1787580462"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1793378536"
     },
     {
       "appid": 1407200,
@@ -127,7 +127,7 @@
       "playtimeForever": 582,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2026-09-06",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/f057c1e043ad78892a4e7dd7b320b5f0825fd0f5/header_alt_assets_10_japanese.jpg?t=1793287660"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2124120/f057c1e043ad78892a4e7dd7b320b5f0825fd0f5/header_alt_assets_10_japanese.jpg?t=1793351317"
     },
     {
       "appid": 3564400,
