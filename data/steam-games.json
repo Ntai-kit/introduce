@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T22:53:41.665Z",
+  "updatedAt": "2026-10-31T22:22:39.188Z",
   "games": [
     {
       "appid": 2357570,
@@ -12,9 +12,9 @@
     {
       "appid": 714010,
       "name": "Aimlabs",
-      "playtimeForever": 4114,
-      "playtime2Weeks": 503,
-      "lastPlayedDate": "2026-10-29",
+      "playtimeForever": 4136,
+      "playtime2Weeks": 465,
+      "lastPlayedDate": "2026-10-31",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/d5e9221e92990e5736994f070ffcd7c4e3af9345/header.jpg?t=1791001714"
     },
     {
@@ -218,6 +218,14 @@
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3241660/62177765c05399116f0453fe1177b00ceed698c4/header_alt_assets_3.jpg?t=1793278962"
     },
     {
+      "appid": 3845070,
+      "name": "Dupery: A Game of Solo Deduction",
+      "playtimeForever": 159,
+      "playtime2Weeks": 159,
+      "lastPlayedDate": "2026-11-01",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/97d1ed1ba272d34d951da38ad51b7ea5a73aae4c/header_japanese.jpg?t=1793106122"
+    },
+    {
       "appid": 238960,
       "name": "Path of Exile",
       "playtimeForever": 158,
@@ -234,12 +242,12 @@
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2835570/header.jpg?t=1783085442"
     },
     {
-      "appid": 3845070,
-      "name": "Dupery: A Game of Solo Deduction",
-      "playtimeForever": 144,
-      "playtime2Weeks": 144,
-      "lastPlayedDate": "2026-10-27",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/97d1ed1ba272d34d951da38ad51b7ea5a73aae4c/header_japanese.jpg?t=1793106122"
+      "appid": 3784030,
+      "name": "RACCOIN: Coin Pusher Roguelike",
+      "playtimeForever": 148,
+      "playtime2Weeks": 148,
+      "lastPlayedDate": "2026-10-31",
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784030/441ff79feb6f3e92a5a6ed4a1d4b89c79e275644/header.jpg?t=1790873141"
     },
     {
       "appid": 1865060,
