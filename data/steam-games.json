@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T23:55:29.406Z",
+  "updatedAt": "2026-11-05T00:15:53.421Z",
   "games": [
     {
       "appid": 2357570,
@@ -12,9 +12,9 @@
     {
       "appid": 714010,
       "name": "Aimlabs",
-      "playtimeForever": 4280,
-      "playtime2Weeks": 376,
-      "lastPlayedDate": "2026-11-03",
+      "playtimeForever": 4401,
+      "playtime2Weeks": 497,
+      "lastPlayedDate": "2026-11-04",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/d5e9221e92990e5736994f070ffcd7c4e3af9345/header.jpg?t=1791001714"
     },
     {
@@ -63,7 +63,7 @@
       "playtimeForever": 2001,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2024-08-02",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/819fc92f7ddb96ef10792a6d72382c5b814d671a/header.jpg?t=1793012187"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1407200/819fc92f7ddb96ef10792a6d72382c5b814d671a/header.jpg?t=1793797662"
     },
     {
       "appid": 381210,
