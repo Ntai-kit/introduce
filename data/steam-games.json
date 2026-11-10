@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T22:43:48.768Z",
+  "updatedAt": "2026-11-10T01:56:47.675Z",
   "games": [
     {
       "appid": 2357570,
@@ -12,8 +12,8 @@
     {
       "appid": 714010,
       "name": "Aimlabs",
-      "playtimeForever": 4728,
-      "playtime2Weeks": 735,
+      "playtimeForever": 4761,
+      "playtime2Weeks": 704,
       "lastPlayedDate": "2026-11-09",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/d5e9221e92990e5736994f070ffcd7c4e3af9345/header.jpg?t=1794000898"
     },
@@ -159,7 +159,7 @@
       "playtimeForever": 328,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2026-08-15",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606150/b6b0789b397ed98c8c5871dd2f99945a8fea0332/header.jpg?t=1793636738"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/606150/b6b0789b397ed98c8c5871dd2f99945a8fea0332/header.jpg?t=1794238333"
     },
     {
       "appid": 2881370,
@@ -221,7 +221,7 @@
       "appid": 3845070,
       "name": "Dupery: A Game of Solo Deduction",
       "playtimeForever": 159,
-      "playtime2Weeks": 159,
+      "playtime2Weeks": 64,
       "lastPlayedDate": "2026-11-01",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/97d1ed1ba272d34d951da38ad51b7ea5a73aae4c/header_japanese.jpg?t=1793106122"
     },
@@ -231,7 +231,7 @@
       "playtimeForever": 158,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2026-08-06",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/19a8acaddb5659ef3c1c91e5d6beb89abf10718d/header.jpg?t=1794003950"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/238960/19a8acaddb5659ef3c1c91e5d6beb89abf10718d/header.jpg?t=1794180550"
     },
     {
       "appid": 2835570,
@@ -247,7 +247,7 @@
       "playtimeForever": 148,
       "playtime2Weeks": 148,
       "lastPlayedDate": "2026-10-31",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784030/441ff79feb6f3e92a5a6ed4a1d4b89c79e275644/header.jpg?t=1790873141"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784030/441ff79feb6f3e92a5a6ed4a1d4b89c79e275644/header.jpg?t=1794239960"
     },
     {
       "appid": 1865060,
