@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12T01:25:06.021Z",
+  "updatedAt": "2026-11-13T00:01:53.144Z",
   "games": [
     {
       "appid": 2357570,
@@ -13,7 +13,7 @@
       "appid": 714010,
       "name": "Aimlabs",
       "playtimeForever": 4779,
-      "playtime2Weeks": 690,
+      "playtime2Weeks": 665,
       "lastPlayedDate": "2026-11-10",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/d5e9221e92990e5736994f070ffcd7c4e3af9345/header.jpg?t=1794000898"
     },
@@ -55,7 +55,7 @@
       "playtimeForever": 2056,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2026-07-31",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1793378536"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3314790/8ba81356b84aa937573fa29fdd708dbd96b01537/header.jpg?t=1794495902"
     },
     {
       "appid": 1407200,
@@ -95,7 +95,7 @@
       "playtimeForever": 935,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2026-07-07",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1791468228"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394360/67bbd0057627fc2244793bcdd09260c2539499cf/header.jpg?t=1794491980"
     },
     {
       "appid": 2656490,
@@ -199,7 +199,7 @@
       "playtimeForever": 223,
       "playtime2Weeks": 0,
       "lastPlayedDate": "2024-05-18",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1049590/72918ebacd0d4f8537969dc8b976ceb98f681cab/header.jpg?t=1789544685"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1049590/cc407c5386e0374e0dca503419847562a53bfbf0/header.jpg?t=1794462660"
     },
     {
       "appid": 1534980,
@@ -223,7 +223,7 @@
       "playtimeForever": 159,
       "playtime2Weeks": 15,
       "lastPlayedDate": "2026-11-01",
-      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/97d1ed1ba272d34d951da38ad51b7ea5a73aae4c/header_japanese.jpg?t=1794280213"
+      "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/97d1ed1ba272d34d951da38ad51b7ea5a73aae4c/header_japanese.jpg?t=1794483059"
     },
     {
       "appid": 238960,
