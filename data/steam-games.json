@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-14T00:17:00.021Z",
+  "updatedAt": "2026-11-14T22:54:43.204Z",
   "games": [
     {
       "appid": 2357570,
@@ -13,7 +13,7 @@
       "appid": 714010,
       "name": "Aimlabs",
       "playtimeForever": 4779,
-      "playtime2Weeks": 665,
+      "playtime2Weeks": 643,
       "lastPlayedDate": "2026-11-10",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/714010/d5e9221e92990e5736994f070ffcd7c4e3af9345/header.jpg?t=1794000898"
     },
@@ -221,7 +221,7 @@
       "appid": 3845070,
       "name": "Dupery: A Game of Solo Deduction",
       "playtimeForever": 159,
-      "playtime2Weeks": 15,
+      "playtime2Weeks": 0,
       "lastPlayedDate": "2026-11-01",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3845070/97d1ed1ba272d34d951da38ad51b7ea5a73aae4c/header_japanese.jpg?t=1794543495"
     },
@@ -245,7 +245,7 @@
       "appid": 3784030,
       "name": "RACCOIN: Coin Pusher Roguelike",
       "playtimeForever": 148,
-      "playtime2Weeks": 36,
+      "playtime2Weeks": 0,
       "lastPlayedDate": "2026-10-31",
       "headerImage": "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3784030/441ff79feb6f3e92a5a6ed4a1d4b89c79e275644/header.jpg?t=1794320501"
     },
